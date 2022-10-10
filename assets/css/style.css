@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 727px;
+    width: 100%;
+    background-image: url(../img/bg-header.jpg);
+    background: transparent url(../img/bg-header.jpg);
+    opacity: 1;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    height: 73px;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 75px;
+}
+
+.section-container {
+    text-align: center;
+    font-weight: 300;
+    margin-left: 150px;
+    margin: 45px 150px 66px;
+}
+
+.iguana-content {
+    width: 40%;
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.iguana-content img {
+    width: 399px;
+    height: 237px;
+}
+
+/* SECTION ICON */
+
+.section__icon {
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    height: 348px;
+}
+
+i {
+    font-size: 37px;
+    margin-bottom: 10px;
+}
+
+.section__icon-icon {
+    display: inline-block;
+    margin: 15px 100px;
+}
+
+/* SECTION IMAGES */
+
+.section__images img {
+    width: 316px;
+    height: 202px;
+    display: inline-block;
+    margin: 73px 5px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+    height: 102px;
+    padding: 39px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: magenta;
+}
